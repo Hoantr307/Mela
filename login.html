@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <!-- <link rel="stylesheet" href="./assets/css/style.css"> -->
+    <title>Login</title>
+</head>
+
+<body>
+    <div style="text-align: center; margin-top: 20px;" class="header-logo">
+        <a href="#" class="header-logo__link">
+            <svg xmlns="http://www.w3.org/2000/svg" width="200" height="70" viewBox="0 0 254 88" fill="none"
+                class="header__logo-image svg replaced-svg">
+                <path
+                    d="M77.5222 40.159C77.2922 37.499 76.7322 34.869 76.3422 32.219C75.7222 28.049 75.2122 23.869 74.4922 19.719C73.8822 16.189 72.0522 13.319 69.1822 11.139C66.0522 8.75904 63.1023 9.33904 61.0423 12.709C58.1023 17.519 55.0223 22.259 52.2323 27.159C50.2523 30.639 48.6223 34.319 46.8823 37.929C46.1923 39.359 45.5922 40.839 44.9422 42.289L44.0923 42.149C43.5623 39.539 42.9622 36.939 42.5122 34.319C41.7022 29.619 41.4023 24.819 39.7523 20.279C38.6123 17.149 37.0422 14.379 34.1222 12.549C30.9422 10.559 27.3023 11.069 25.0723 14.039C23.9823 15.479 22.9622 17.029 22.2222 18.669C20.1123 23.369 18.0723 28.109 16.1823 32.909C14.5723 36.999 13.2822 41.219 11.7222 45.329C8.40225 54.089 4.97225 62.809 1.65225 71.569C1.01225 73.259 0.58225 75.039 0.22225 76.819C-0.42775 80.019 0.27225 81.169 3.33225 82.259C4.05225 82.509 4.80225 82.709 5.55225 82.789C8.71225 83.139 9.95225 82.489 11.1222 79.539C11.8522 77.689 12.1922 75.679 12.8322 73.789C15.8022 64.999 18.6922 56.179 21.8822 47.469C23.3522 43.439 25.4323 39.639 27.2723 35.749C27.5023 35.269 27.9423 34.889 28.5223 34.169C28.8223 35.449 29.0523 36.349 29.2423 37.259C29.8523 40.259 30.1722 43.349 31.1122 46.239C32.5222 50.549 33.8222 54.809 33.4422 59.409C33.4122 59.779 33.5723 60.159 33.6123 60.539C33.8923 63.109 35.2623 64.869 37.7323 65.479C40.6023 66.189 43.5422 66.299 45.6522 63.729C47.8322 61.069 49.9122 58.339 51.2122 55.059C52.0122 53.019 53.2122 51.149 54.2422 49.199C55.1322 47.509 56.2822 45.909 56.8722 44.119C58.1022 40.379 60.7622 37.649 62.9422 34.409C63.5622 37.139 64.0422 39.669 64.7022 42.139C66.4122 48.469 67.0922 54.909 66.7422 61.449C66.4222 67.469 65.9822 73.479 65.6322 79.489C65.5122 81.639 65.6022 83.8591 67.6222 85.159C70.3422 86.899 73.3723 87.779 76.6423 87.329C79.1123 86.989 80.3722 85.599 80.3722 83.069C80.3722 79.539 80.3322 75.989 80.0722 72.469C79.2922 61.689 78.4422 50.919 77.5322 40.159H77.5222Z"
+                    fill="black"></path>
+                <path
+                    d="M137.593 7.899C133.683 8.789 129.763 9.729 125.933 10.919C121.013 12.459 116.253 14.529 111.283 15.879C107.493 16.909 105.413 19.359 104.093 22.659C102.993 25.409 102.163 28.269 101.373 31.129C98.9927 39.789 96.6527 48.459 94.3827 57.149C93.7327 59.639 93.4527 62.219 92.8327 64.719C91.8827 68.579 91.7227 72.459 91.9527 76.399C92.1127 79.199 93.5327 80.699 96.0627 81.589C101.003 83.329 105.933 82.959 110.693 81.279C117.273 78.949 123.883 76.809 130.723 75.349C134.203 74.599 136.623 72.379 138.153 69.159C138.653 68.099 138.693 67.069 138.013 66.179C136.723 64.479 135.213 62.939 132.953 62.729C130.183 62.479 127.423 62.599 124.713 63.489C123.183 63.999 121.573 64.279 119.983 64.599C117.653 65.069 115.303 65.489 112.963 65.919C111.613 66.169 110.263 66.389 108.563 66.689C109.193 62.829 109.743 59.439 110.303 56.059C110.703 53.659 111.523 51.699 114.433 51.489C115.243 51.429 115.993 50.759 116.813 50.519C120.833 49.359 124.873 48.269 128.903 47.129C131.563 46.379 134.343 45.869 136.843 44.739C141.093 42.829 141.973 38.799 139.243 35.069C137.663 32.919 135.433 31.989 132.843 31.739C129.873 31.459 127.143 32.369 124.513 33.519C120.913 35.099 117.083 34.879 113.263 35.499C113.043 33.309 113.913 31.829 115.483 30.939C117.633 29.719 119.833 28.389 122.183 27.749C129.483 25.749 136.443 22.929 143.253 19.659C145.573 18.549 146.633 16.569 147.123 14.289C147.313 13.399 147.023 12.069 146.433 11.399C144.113 8.779 141.263 7.029 137.573 7.869L137.593 7.899Z"
+                    fill="black"></path>
+                <path
+                    d="M253.112 24.709C252.892 22.809 251.982 20.789 252.402 19.069C253.162 15.869 252.282 12.929 251.562 10.049C250.912 7.43903 249.542 4.87903 247.982 2.64903C246.072 -0.0809677 242.512 -0.730968 239.762 0.839032C237.182 2.31903 234.782 4.04903 233.572 6.99903C233.192 7.91903 232.432 8.73903 231.712 9.46903C228.912 12.279 226.542 15.329 225.322 19.199C224.632 21.369 223.662 23.469 222.652 25.519C220.882 29.109 218.982 32.639 217.142 36.199C212.052 46.049 209.442 56.759 206.262 67.279C206.182 67.549 206.142 67.839 206.052 68.119C205.612 69.519 206.202 70.509 207.542 70.649C208.782 70.779 209.602 71.399 210.572 72.009C212.762 73.369 215.182 73.629 217.282 71.959C218.672 70.849 220.052 69.459 220.802 67.889C222.872 63.589 224.622 59.139 226.482 54.739C226.962 53.609 227.382 52.459 227.742 51.549C231.352 50.539 234.702 49.609 238.432 48.569C237.882 52.669 237.352 56.069 237.002 59.479C236.642 62.999 236.322 66.529 236.212 70.059C236.122 72.989 237.472 74.879 240.312 75.479C242.212 75.879 244.282 75.699 246.242 75.479C248.042 75.279 248.912 73.959 249.392 72.209C250.532 68.039 251.112 63.819 251.382 59.499C251.672 54.839 252.592 50.219 252.932 45.559C253.312 40.339 253.402 35.089 253.512 29.849C253.552 28.139 253.312 26.419 253.112 24.709V24.709ZM240.872 34.869C238.412 35.459 236.232 35.969 233.732 36.569C235.812 32.479 237.842 28.489 239.962 24.299C241.812 27.849 240.692 31.359 240.872 34.859V34.869Z"
+                    fill="black"></path>
+                <path
+                    d="M190.491 53.589C185.511 54.469 180.591 55.719 175.641 56.739C172.961 57.289 170.241 57.709 167.011 58.289C167.441 54.749 167.681 51.909 168.141 49.099C169.281 42.219 170.521 35.359 171.731 28.489C171.831 27.929 171.991 27.379 172.121 26.819C173.351 21.619 174.741 16.439 175.741 11.189C176.351 8.01902 175.681 4.95902 173.471 2.31902C171.321 -0.260982 168.181 -0.470982 166.141 2.12902C165.091 3.46902 163.931 4.91902 163.461 6.50902C162.041 11.369 160.791 16.279 159.731 21.229C157.941 29.549 156.401 37.909 154.661 46.239C153.671 51.009 152.491 55.739 151.441 60.499C151.261 61.329 151.331 62.209 151.241 63.059C151.111 64.279 150.951 65.489 150.801 66.709C150.511 68.969 149.961 71.219 149.991 73.479C150.031 76.199 152.081 77.989 154.811 78.219C156.861 78.389 158.791 78.059 160.631 77.069C164.801 74.819 169.171 73.229 173.971 73.019C174.351 72.999 174.731 72.899 175.101 72.849C181.221 71.899 187.331 70.899 193.461 70.029C195.651 69.719 197.251 68.799 198.131 66.759C198.551 65.789 198.981 64.819 199.241 63.809C200.501 58.829 196.171 52.609 190.481 53.619L190.491 53.589Z"
+                    fill="black"></path>
+            </svg>
+        </a>
+    </div>
+    
+    <div class="main">
+        <div class="form text-align">
+            <div class="logo">
+                <img src="./assets/img/avatar1.jfif" alt="" class="first__img">
+            </div>
+            <div class="second">
+                <h3 class="second__user">User</h3>
+                <input name="username" type="text" class="second__enter-user" placeholder="User name">
+            </div>
+            <div class="third">
+                <h3 class="third__password">Password</h3>
+                <input name="password" type="password" class="third__enter-password" placeholder="Password">
+            </div>
+            <div class="fourth">
+                <a href="index.html" class="fourth__button">Login</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <footer class="footer">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__column-2-4">
+                    <h2 class="footer-heading">OUR PRODUCTS</h2>
+                    <ul class="footer-list">
+                        <li class="footer-item">The Original</li>
+                        <li class="footer-item">Watermelon + Pineapple</li>
+                        <li class="footer-item">Watermelon + Passionfruit</li>
+                        <li class="footer-item">Watermelon + Ginger</li>
+                        <li class="footer-item">VARIETY PACK</li>
+                        <li class="footer-item">Gift Card</li>
+                        <li class="footer-item">Wholesale</li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h2 class="footer-heading">INFO</h2>
+                    <ul class="footer-list">
+                        <li class="footer-item">Where to buy</li>
+                        <li class="footer-item">Contact</li>
+                        <li class="footer-item">FAQ</li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h2 class="footer-heading">SHOP</h2>
+                    <ul class="footer-list">
+                        <li class="footer-item">Terms of Service</li>
+                        <li class="footer-item">Refund Policy</li>
+                        <li class="footer-item">Privacy Policy</li>
+                    </ul>
+                </div>
+                <div class="footer-signup-social">
+                    <div class="footer-signup">
+                        <h2 class="footer-heading">SIGN UP FOR THE WORLD'S JUCIEST WATERMELON WATER</h2>
+                        <input type="email" value="" placeholder="email" name="contact[email]" id="Email"
+                            class="footer-signup__input" autocorrect="off" autocapitalize="off">
+                        <button class="btn-signup btn white-btn">Sign up</button>
+                    </div>
+                    <div class="footer-social">
+                        <ul class="social-list">
+                            <li class="social-item">
+                                <a target="_blank" href="https://www.tiktok.com/@melawater/" title="Mela on Tiktok"
+                                    aria-describedby="audioeye_new_window_message">
+                                    <img class="icon icon-tiktok"
+                                        src="//cdn.shopify.com/s/files/1/0620/8566/0888/files/tiktok-white.svg?v=15793036227383443188"
+                                        aria-hidden="true" width="20px" height="20px">
+                                </a>
+                            </li>
+
+                            <li class="social-item">
+                                <a target="_blank" href="https://www.instagram.com/mela/" title="Mela on instagram"
+                                    aria-describedby="audioeye_new_window_message">
+                                    <img class="icon icon-instagram"
+                                        src="//cdn.shopify.com/s/files/1/0620/8566/0888/files/instagram-white.svg?v=7718315321797270009"
+                                        aria-hidden="true" width="20px" height="20px">
+                                </a>
+                            </li>
+
+                            <li class="social-item">
+                                <a target="_blank" href="https://www.facebook.com/MelaWatermelon/"
+                                    title="Mela on facebook" aria-describedby="audioeye_new_window_message">
+                                    <img class="icon icon-facebook"
+                                        src="//cdn.shopify.com/s/files/1/0620/8566/0888/files/facebook-white.svg?v=7172856787528422133"
+                                        aria-hidden="true" width="20px" height="20px">
+                                </a>
+                            </li>
+
+                            <li class="social-item">
+                                <a target="_blank" href="https://www.linkedin.com/company/mela-water"
+                                    title="Mela on LinkedIn" aria-describedby="audioeye_new_window_message">
+                                    <img class="icon icon-linkedin"
+                                        src="//cdn.shopify.com/s/files/1/0620/8566/0888/files/linkedin-white.svg?v=13634114073656365902"
+                                        aria-hidden="true" width="20px" height="20px">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer> -->
+</body>
+
+</html>

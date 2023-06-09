@@ -1,0 +1,85 @@
+.main {
+  height: 800px;
+  background-image: url(../img/Mela_6.jpg);
+  overflow: hidden;
+}
+
+
+
+.form {
+  width: 320px;
+  height: 400px;
+  background-color: black;
+  opacity: 0.9;
+  margin: 10% auto;
+}
+
+.logo {
+  width: 100%;
+  height: 100px;
+  text-align: center;
+
+}
+
+.first__img {
+  width: 70px;
+  border-radius: 50%;
+  margin-top: 30px;
+
+}
+
+.second {
+  width: 100%;
+  height: 70px;
+  padding: 0 20px;
+}
+
+.second__user {
+  color: whitesmoke;
+  font-size: 2rem;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.second__enter-user {
+  width: 100%;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.third {
+  width: 100%;
+  height: 70px;
+  padding: 0 20px;
+}
+
+.third__password {
+  color: whitesmoke;
+  font-size: 2rem;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.third__enter-password {
+  width: 100%;
+  height: 30px;
+  border-radius: 3px;
+}
+
+.fourth { 
+  width: 60%;
+  height: 30px;
+  text-align: center;
+  line-height: 60px;  
+  margin-top: 20px;
+}
+
+.fourth__button {
+  text-align: center;
+  border-radius: 10px;
+  color: whitesmoke;
+  font-size: 1.5rem;
+  padding: 8px 20px;
+  background-color: #80251b;
+  margin-left: 100px;
+}

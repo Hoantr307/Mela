@@ -1,0 +1,14 @@
+.main {
+    margin: 180px 0 40px 0;
+}
+
+
+.main p {
+    font-size: 2rem;
+    line-height: 2.4rem;
+}
+
+.map img {
+    width: 800px;
+    height: 500px;
+}
